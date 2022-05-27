@@ -1,0 +1,194 @@
+body {
+	color: #000;
+	overflow-x: hidden;
+	background-color: #FFFDF5;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;	
+}
+
+header {
+	margin: 44px 0 147px 0;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav a {
+	font-family: 'Mulish-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 19px;
+	color: #000;
+	padding: 0 50px 0 0;
+	text-decoration: none;
+}
+
+.phone {
+	text-align: right;
+	vertical-align: middle;
+}
+
+.phone a {
+	color: #000;
+	font-family: 'Cooper Lt BT-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	padding: 0 0 0 10px;
+}
+
+/* main-section -------------------*/
+
+.main-section {
+	margin: 0 0 150px 0;
+}
+
+.main-section-text {
+	text-align: center;
+}
+
+.main-section-text-title {
+	font-family: 'Cooper Lt BT-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 66px;
+	line-height: 120%;
+	margin: 0 0 40px 0;
+	padding: 0px 190px;
+}
+
+.main-section-text-intro {
+	font-family: 'Mulish-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+	margin: 0 0 63px 0;
+	padding: 0px 220px;
+}
+
+.btn {
+	font-family: 'Cooper Lt BT-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 19px;
+	color: #000;
+	background-color: #FBCA27;
+	padding: 13px 27px;
+	border-radius: 34px;
+	transition: background-color, color .4s ease;
+}
+
+.btn:hover {
+	color: #FBCA27;
+	background-color: #000;
+	text-decoration: none;
+}
+
+/* main-areas -------------------*/
+
+.section-areas {
+	margin-bottom: 280px;
+}
+
+.main-section-areas-text {
+
+}
+.main-section-areas-text-title {
+	font-family: 'Cooper Lt BT-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 110%;
+	padding: 0 210px 0 0;
+	margin-bottom: 40px;
+}
+.main-section-areas-text-intro {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	padding: 0 210px 0 0;
+	margin-bottom: 50px;
+}
+.section-area-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.list-section-areas {
+	list-style: url('../img/Done Icon.svg');
+	padding: 0 40px 0 24px;
+}
+
+.list-section-item {
+	vertical-align: middle;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+
+.our-address {
+	width: 427px;
+	height: 500px;
+	background-color: #fff;
+}
+
+.our-address-text-title {
+	font-family: 'Cooper Lt BT-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 130%;
+	padding: 50px 50px 0 50px;
+	border-top: 4px solid #FBCA27;
+	margin-bottom: 42px;
+}
+
+.list-section-item-phone {
+	list-style: url('../img/Icon Phone.svg');
+}
+
+.google-map-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-google {
+	font-family: 'Mulish-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	color: #000;
+	border: 2px solid #EDEDED;
+	border-radius: 10px;
+	padding: 20px 20px;
+}  
+
+.btn-google:hover {
+	text-decoration: none;
+	color: #000;
+}  
