@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Mulish-Regular;
-	src: url(Mulish-Bold.ttf);
+	src: url(Mulish-Regular.ttf);
 }
 
 @font-face {
@@ -12,6 +12,8 @@
 	font-family: Cooper Lt BT-Bold;
 	src: url(Cooper Lt BT Bold.otf);
 }
+
+
 
 /*@font-face {
 	font-family: 'Mulish';
