@@ -54,6 +54,10 @@ button {
 	align-items: center;
 }
 
+.logo {
+	width: 171px;
+}
+
 .nav {
 	display: inline-flex;
 }
@@ -68,7 +72,7 @@ button {
 	font-size: 15px;
 	line-height: 19px;
 	color: #000;
-	transition: color 0.1s ease;
+	transition: opacity 0.3s ease;
 }
 
 .nav a:hover {
@@ -89,7 +93,7 @@ button {
 	font-size: 16px;
 	line-height: 20px;
 	color: #000;
-	transition: color 0.1s ease;
+	transition: opacity 0.3s ease;
 	vertical-align: middle;
 }
 
@@ -107,7 +111,7 @@ button {
 
 .main-section-content {
 	text-align: center;
-	max-width: 64%;
+	max-width: 840px;
 	margin: 0 auto;
 }
 
@@ -125,6 +129,7 @@ button {
 	font-size: 18px;
 	line-height: 140%;
 	margin: 0 0 50px 0;
+	padding: 0 40px;
 }
 
 .btn {
@@ -137,7 +142,7 @@ button {
 	background-color: #FBCA27;
 	padding: 14px 27px;
 	border-radius: 26px;
-	transition: background-color, color .4s ease;
+	transition: background-color 0.4s, color 0.4s ease;
 }
 
 .btn:hover {
@@ -151,14 +156,8 @@ button {
 	margin-bottom: 280px;
 }
 
-.section-locate-container {
-	display: inline-flex;
-	justify-content: space-between;
-}
-
 .section-locate-content {
-	width: 100%;
-	margin-right: 20px;
+	padding: 0 30px 0 0;
 }
 
 .section-locate-title {
@@ -179,13 +178,13 @@ button {
 	font-size: 20px;
 	line-height: 140%;
 	columns: 2;
-	margin-right: 40px;
+	max-width: 420px;
 }
 
 .section-locate-list li {
 	list-style-image: url('../img/done-icon.svg');
 	list-style-position: inside;
-	padding-bottom: 14px;
+	margin-bottom: 14px;
 }
 
 .section-locate-list a {
@@ -198,7 +197,7 @@ button {
 	filter: drop-shadow(0px 6px 18px rgba(126, 95, 37, 0.1));
 	border-radius: 10px;
 	background-color: #fff;
-	padding: 50px 50px;
+	padding: 40px 40px;
 }
 
 .our-address::before {
@@ -210,6 +209,7 @@ button {
 	display: block;
 	height: 4px;
 	width: 100%;
+	border-radius: 6px 6px 0 0;
 }
 
 .our-address-title {
@@ -222,6 +222,7 @@ button {
 
 .our-address-card-item {
 	display: flex;
+	margin-bottom: 42px;
 }
 
 .our-address-card-item svg {
@@ -234,7 +235,6 @@ button {
 .our-address-subtitle {
 	font-size: 20px;
 	line-height: 25px;
-	margin-bottom: 42px;
 }
 
 .our-address-text-intro svg {
@@ -262,22 +262,21 @@ button {
 	margin: 0 10px 0 0;
 }
 
+.btn-google:hover {
+	background-color: #F5F5F5;
+	color: #000;
+}
+
 /* Section about                   */
 
 .section-about {
 	margin-bottom: 161px;
 }
 
-.section-about-container {
-	display: flex;
-	position: relative;
-}
-
 .section-about-ellipse-img {
 	position: absolute;
-	top: 100px;
-	left: 10px;
-
+	top: 130px;
+	left: 30px;
 }
 
 .section-about-img {
@@ -286,10 +285,6 @@ button {
 
 .section-about-content {
 	margin: 0;
-}
-
-.section-about-subtitle {
-	padding-right: 90px;
 }
 
 /* Why us section                  */
