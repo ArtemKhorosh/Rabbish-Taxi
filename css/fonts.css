@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Mulish';
+	src: url('../fonts/Mulish-Regular.woff') format('woff'),
+	url('../fonts/Mulish-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../fonts/Mulish-Bold.woff') format('woff'),
+	url('../fonts/Mulish-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cooper';
+	src: url('../fonts/Cooper\ Lt\ BT\ Regular.woff') format('woff'),
+	url('../fonts/Cooper\ Lt\ BT\ Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cooper';
+	src: url('../fonts/Cooper\ Lt\ BT\ Bold.woff') format('woff'),
+	url('../fonts/Cooper\ Lt\ BT\ Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

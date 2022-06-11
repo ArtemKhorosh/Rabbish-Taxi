@@ -1,4 +1,5 @@
 body {
+	font-family: 'Mulish';
 	color: #000;
 	overflow-x: hidden;
 	background-color: #FFFDF5;
@@ -62,13 +63,12 @@ button {
 }
 
 .nav a {
-	font-family: 'Mulish-Bold';
-	font-style: normal;
+	font-family: 'Mulish';
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 19px;
 	color: #000;
-	transition: all 0.1s ease;
+	transition: color 0.1s ease;
 }
 
 .nav a:hover {
@@ -84,13 +84,12 @@ button {
 }
 
 .nav-phone {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
 	color: #000;
-	transition: all 0.1s ease;
+	transition: color 0.1s ease;
 	vertical-align: middle;
 }
 
@@ -113,8 +112,7 @@ button {
 }
 
 .main-section-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 66px;
 	line-height: 120%;
@@ -122,8 +120,7 @@ button {
 }
 
 .main-section-subtitle {
-	font-family: 'Mulish-Bold';
-	font-style: normal;
+	font-family: 'Mulish';
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 140%;
@@ -131,8 +128,7 @@ button {
 }
 
 .btn {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 19px;
@@ -160,33 +156,26 @@ button {
 	justify-content: space-between;
 }
 
-.section-locate-text {
+.section-locate-content {
 	width: 100%;
 	margin-right: 20px;
 }
 
-.section-locate-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-locate-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
 	margin-bottom: 40px;
 }
 
-.section-locate-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.section-locate-subtitle {
 	font-size: 20px;
 	line-height: 140%;
 	margin-bottom: 40px;
 }
 
 .section-locate-list {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 20px;
 	line-height: 140%;
 	columns: 2;
@@ -223,9 +212,8 @@ button {
 	width: 100%;
 }
 
-.our-address-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.our-address-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 28px;
 	line-height: 130%;
@@ -243,10 +231,7 @@ button {
 	margin: 0 23px 0 0;
 }
 
-.our-address-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.our-address-subtitle {
 	font-size: 20px;
 	line-height: 25px;
 	margin-bottom: 42px;
@@ -260,11 +245,11 @@ button {
 }
 
 .btn-google {
-	font-family: 'Mulish-Bold';
-	font-style: normal;
+	font-family: 'Mulish';
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 25px;
+	align-items: center;
 	padding: 20px 20px;
 	border: 2px solid #EDEDED;
 	border-radius: 10px;
@@ -285,23 +270,25 @@ button {
 
 .section-about-container {
 	display: flex;
+	position: relative;
 }
 
 .section-about-ellipse-img {
 	position: absolute;
-	top: 1690px;
-	left: 180px;
+	top: 100px;
+	left: 10px;
+
 }
 
 .section-about-img {
 	border-radius: 0px 500px 500px 0px;
 }
 
-.section-about-text {
+.section-about-content {
 	margin: 0;
 }
 
-.section-about-text-intro {
+.section-about-subtitle {
 	padding-right: 90px;
 }
 
@@ -311,9 +298,8 @@ button {
 	margin-bottom: 91px;
 }
 
-.why-us-section-text {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.why-us-section-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
@@ -349,19 +335,15 @@ button {
 	margin-top: 25px;
 }
 
-.why-us-section-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.why-us-section-title-card {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 130%;
 	margin-bottom: 20px;
 }
 
-.why-us-section-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.why-us-section-subtitle {
 	font-size: 18px;
 	line-height: 140%;
 }
@@ -372,23 +354,10 @@ button {
 	margin-bottom: 161px;
 }
 
-.section-about-ellipse-left-img {
-	position: absolute;
-	width: 6%;
-	right: 901px;
-	top: 110px;
-}
-
-.section-about-ellipse-right-img {
-	position: absolute;
-	width: 20%;
-	top: 20px;
-	left: 764px;
-}
-
 .section-pricing-element {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 	justify-content: space-between;
 	background-color: #FBCA27;
 	border: 1px solid #000000;
@@ -396,18 +365,30 @@ button {
 	padding: 50px 80px;
 }
 
-.section-pricing-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-about-ellipse-left-img {
+	position: absolute;
+	width: 6%;
+	right: 886px;
+	top: 110px;
+}
+
+.section-about-ellipse-right-img {
+	position: absolute;
+	width: 22%;
+	top: 20px;
+	left: 734px;
+}
+
+.section-pricing-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
 	margin-bottom: 29px;
 }
 
-.section-pricing-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
+.section-pricing-subtitle {
+	font-family: 'Mulish';
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 140%;
@@ -415,10 +396,15 @@ button {
 
 }
 
+.div {
+	justify-content: space-between;
+}
+
 .btn-pricing {
 	border: 1px solid #000000;
 	border-radius: 26px;
 	margin-right: 20px;
+	padding: 14px 22px;
 }
 
 /* Section how it work             */
@@ -427,42 +413,37 @@ button {
 	margin-bottom: 211px;
 }
 
-.section-how-it-work-text {
+.section-how-it-work-content {
 	text-align: center;
 	margin-bottom: 80px;
 }
 
-.section-how-it-work-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-how-it-work-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
 	padding: 0 0 25px 0;
 }
 
-.section-how-it-work-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.section-how-it-work-subtitle {
 	font-size: 20px;
 	line-height: 140%;
 }
 
-.section-how-it-wor-card {
+.section-how-it-work-card {
 	display: flex;
 	padding: 60px 0;
 	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.section-how-it-wor-card:last-child {
+.section-how-it-work-card:last-child {
 	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 
 }
 
 .number-of-chapter {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 110%;
@@ -470,18 +451,14 @@ button {
 }
 
 .text-of-the-chapter-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 130%;
 	padding: 0 20px 0 34px;
 }
 
-.text-of-the-chapter-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.text-of-the-chapter-subtitle {
 	font-size: 18px;
 	line-height: 140%;
 	padding: 38px 0 0 0;
@@ -493,35 +470,28 @@ button {
 	margin-bottom: 99px;
 }
 
-.section-services-container {
+.row-mod {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
+	position: relative;
 }
 
 .section-services-ellipse-img {
 	position: absolute;
-    left: 730px;
-    bottom: 1222px;
+	left: 830px;
+    bottom: 1400px;
 }
 
-.section-services-text {
-	margin-right: 142px;
-	padding: 0 0 0 0;
-}
-
-.section-services-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-services-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
 	margin-bottom: 60px;
 }
 
-.section-services-text-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.section-services-subtitle {
 	font-size: 17px;
 	line-height: 140%;
 }
@@ -530,22 +500,18 @@ button {
 	margin-bottom: 115px;
 }
 
-.section-services-text-content-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-services-title-content {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 130%;
 	margin-bottom: 25px;
 }
 
-.section-services-text-content-intro {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
+.section-services-subtitle-content {
 	font-size: 17px;
 	line-height: 140%;
-	margin-bottom: 60px;
+	padding-bottom: 60px;
 }
 
 /* Section review text               */
@@ -554,9 +520,12 @@ button {
 	margin-bottom: 161px;
 }
 
-.section-review-text-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-review-content {
+	max-width: 76%;
+}
+
+.section-review-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 130%;
@@ -568,9 +537,8 @@ button {
 	margin-bottom: 161px;
 }
 
-.section-reviews-text-content-title {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-reviews-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
@@ -585,17 +553,13 @@ button {
 }
 
 .section-review-slider-text {
-	font-family: 'Mulish-Regular';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 24px;
 	line-height: 140%;
 	margin-bottom: 30px;
 }
 
 .review-name {
-	font-family: 'Cooper Lt BT';
-	font-style: normal;
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 110%;
@@ -608,7 +572,6 @@ button {
 
 .review-rate-text {
 	font-family: 'Mulish';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 140%;
@@ -652,8 +615,8 @@ button {
 }
 
 .slider-dots .tns-nav-active {
-	width: 10px;
-	height: 10px;
+	width: 12px;
+	height: 12px;
 	background: #FBCA27;
 	border: none;
 }
@@ -664,15 +627,20 @@ button {
 	margin-bottom: 159px;
 }
 
-.section-bottom-ellipses-left { 
+.container-mod-bottom {
+	position: relative;
+}
+
+.section-bottom-ellipses-left {
 	position: absolute;
 	right: 990px;
-    top: 290px;
+	top: 290px;
 }
-.section-bottom-ellipses-right { 
+
+.section-bottom-ellipses-right {
 	position: absolute;
 	left: 840px;
-    bottom: 314px;
+	bottom: 314px;
 }
 
 .section-bottom-content {
@@ -681,9 +649,8 @@ button {
 	padding: 110px 390px 110px 100px;
 }
 
-.section-bottom-text {
-	font-family: 'Cooper Lt BT-Bold';
-	font-style: normal;
+.section-bottom-title {
+	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 110%;
@@ -710,8 +677,6 @@ button {
 .footer-menu li:not(:last-child) {
 	margin: 0 40px 0 0;
 }
-
-.footer-links {}
 
 .footer-bottom {
 	padding-bottom: 37px;
