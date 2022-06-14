@@ -279,12 +279,21 @@ button {
 	left: 30px;
 }
 
+.wrapper {
+	width: 585px;
+	height: 466px;
+}
+
 .section-about-img {
 	border-radius: 0px 500px 500px 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .section-about-content {
-	margin: 0;
+	margin: 0 0 0 30px;
+	padding: 0;
 }
 
 /* Why us section                  */
