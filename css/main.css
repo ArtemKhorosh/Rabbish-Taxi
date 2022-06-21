@@ -5,9 +5,8 @@ body {
 	background-color: #FFFDF5;
 }
 
-header {
-	padding: 14px 0;
-	margin-bottom: 147px;
+main {
+	padding-top: 210px;
 }
 
 img {
@@ -48,10 +47,23 @@ button {
 
 /* Header                           */
 
+.header {
+	padding: 14px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+}
+
 .header-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.logo-container {
+	z-index: 20;
 }
 
 .logo-img {
@@ -101,6 +113,42 @@ button {
 	color: #000;
 	opacity: 60%;
 	text-decoration: none;
+}
+
+.header-info-wrap {
+	display: flex;
+	align-items: center;
+}
+
+.btn-menu {
+	display: none;
+	z-index: 15;
+	position: relative;
+	width: 24px;
+	height: 19px;
+}
+
+.btn-menu span {
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	background: #000;
+	top: 50%;
+	right: 0;
+	border-radius: 1px;
+	transition: all 0.4s ease;
+}
+
+.btn-menu span:nth-child(1) {
+	top: 0;
+}
+
+.btn-menu span:nth-child(2) {
+	top: 8px;
+}
+
+.btn-menu span:nth-child(3) {
+	top: 16px;
 }
 
 /* Main section                     */
