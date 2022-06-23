@@ -226,13 +226,21 @@ button {
 	font-size: 20px;
 	line-height: 140%;
 	columns: 2;
-	max-width: 420px;
+	max-width: 440px;
+	position: relative;
 }
 
 .section-locate-list li {
-	list-style-image: url('../img/done-icon.svg');
-	list-style-position: inside;
-	margin-bottom: 14px;
+	padding: 0 0 14px 28px;
+}
+
+.section-locate-list li::before {
+	background-image: url('../img/done-icon.svg');
+	content: '';
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	margin: 5px 0 0 -28px;
 }
 
 .section-locate-list a {
@@ -321,11 +329,11 @@ button {
 	margin-bottom: 161px;
 }
 
-.section-about-ellipse-img {
+/* .section-about-ellipse-img {
 	position: absolute;
 	top: 130px;
 	left: 30px;
-}
+} */
 
 .wrapper {
 	width: 585px;
@@ -337,6 +345,20 @@ button {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.wrapper::after {
+	content: '';
+	width: 168px;
+	height: 84px;
+	background-color: #FBCA27;
+	border-radius: 50% / 100%;
+	position: absolute;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	transform: rotate(-90deg);
+	top: 190px;
+	right: 543px;
 }
 
 .section-about-content {
@@ -414,21 +436,22 @@ button {
 	background-color: #FBCA27;
 	border: 1px solid #000000;
 	border-radius: 10px;
-	padding: 50px 80px;
+	padding: 110px 100px 110px 100px;
 }
 
-.section-about-ellipse-left-img {
-	position: absolute;
-	width: 6%;
-	right: 886px;
-	top: 110px;
+.section-pricing-content {
+	max-width: 439px;
 }
 
-.section-about-ellipse-right-img {
+.section-pricing-content::after {
+	content: '';
+	width: 114px;
+	height: 114px;
+	border-radius: 50%;
+	border: 2px solid #FFE58D;
 	position: absolute;
-	width: 22%;
-	top: 20px;
-	left: 734px;
+	top: 104px;
+	right: 890px;
 }
 
 .section-pricing-title {
@@ -444,19 +467,50 @@ button {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 140%;
-	margin-bottom: 55px;
+	margin-bottom: 42px;
 
 }
 
-.div {
-	justify-content: space-between;
+.section-pricing-btn {
+	display: flex;
 }
 
 .btn-pricing {
 	border: 1px solid #000000;
 	border-radius: 26px;
 	margin-right: 20px;
-	padding: 14px 22px;
+	padding: 14px 26px;
+}
+
+.section-pricing-content-img {
+	display: contents;
+}
+
+.section-pricing-content-img::after {
+	content: '';
+	width: 466px;
+	height: 469px;
+	border-radius: 50%;
+	border: 2px dashed #FFFFAB;
+	position: absolute;
+	top: 26px;
+	left: 700px;
+}
+
+.section-pricing-content-img::before {
+	content: '';
+	width: 252px;
+	height: 255px;
+	border-radius: 50%;
+	border: 2px dashed #FFFFAB;
+	position: absolute;
+	top: 133px;
+	left: 807px;
+}
+
+.section-pricing-img {
+	width: 287px;
+	z-index: 30;
 }
 
 /* Section how it work             */
@@ -529,12 +583,6 @@ button {
 	position: relative;
 }
 
-.section-services-ellipse-img {
-	position: absolute;
-	left: 830px;
-    bottom: 1400px;
-}
-
 .section-services-title {
 	font-family: 'Cooper';
 	font-weight: 700;
@@ -550,6 +598,19 @@ button {
 
 .section-services-img {
 	margin-bottom: 115px;
+	position: relative;
+	z-index: 20;
+}
+
+.section-services-img-content::before {
+	content: '';
+	width: 168px;
+	height: 168px;
+	background-color: #FBCA27;
+	position: absolute;
+	border-radius: 50%;
+	bottom: 1400px;
+	left: 250px;
 }
 
 .section-services-title-content {
@@ -570,6 +631,11 @@ button {
 
 .section-review-text {
 	margin-bottom: 161px;
+}
+
+.row-review {
+	display: flex;
+	justify-content: space-between;
 }
 
 .section-review-content {
@@ -641,11 +707,11 @@ button {
 }
 
 .control button.prev {
-	left: -30px;
+	left: -20px;
 }
 
 .control button.next {
-	right: -30px;
+	right: -20px;
 }
 
 .prev svg {
@@ -683,22 +749,48 @@ button {
 	position: relative;
 }
 
-.section-bottom-ellipses-left {
+.container-mod-bottom::after {
+	content: '';
+	width: 39px;
+	height: 39px;
+	border-radius: 50%;
+	background: #FBCA27;
 	position: absolute;
-	right: 990px;
-	top: 290px;
+	top: 20px;
+	right: 70px;
 }
 
-.section-bottom-ellipses-right {
-	position: absolute;
-	left: 840px;
-	bottom: 314px;
+.section-bottom-element {
+	padding: 146px 118px;
+	background: #FBCA27;
+	border-radius: 10px;
+
 }
 
 .section-bottom-content {
+	max-width: 537px;
+}
+
+.section-bottom-content::after {
+	content: '';
+	width: 114px;
+	height: 114px;
+	border-radius: 50%;
+	border: 2px solid #FFE58D;
+	position: absolute;
+	top: 404px;
+	right: 990px;
+}
+
+.section-bottom-content::before {
+	content: '';
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
 	background: #FBCA27;
-	border-radius: 10px;
-	padding: 110px 390px 110px 100px;
+	position: absolute;
+	top: 538px;
+	right: 1070px;
 }
 
 .section-bottom-title {
@@ -709,10 +801,33 @@ button {
 	margin-bottom: 55px;
 }
 
-.section-bottom-img {
+.section-bottom-content-img::after {
+	content: '';
+	width: 174px;
+	height: 175px;
+	border-radius: 50%;
+	border: 2px dashed #FFE58D;
 	position: absolute;
-	top: 180px;
-	left: 444px;
+	top: 100px;
+	left: 960px;
+}
+
+.section-bottom-content-img::before {
+	content: '';
+	width: 98px;
+	height: 99px;
+	border-radius: 50%;
+	background-color: #FFE58D;
+	position: absolute;
+	top: 138px;
+	left: 998px;
+}
+
+.section-bottom-img {
+	width: 819px;
+	position: absolute;
+	top: 300px;
+	left: 440px;
 }
 
 /* Section footer                    */
@@ -723,17 +838,42 @@ button {
 }
 
 .footer-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	padding: 87px 0 80px 0;
 }
 
 .footer-menu li:not(:last-child) {
-	margin: 0 40px 0 0;
+	margin: 0 30px 0 0;
+}
+
+.nav-footer {
+	display: flex;
+}
+
+.nav-footer a {
+	color: #000;
+	font-family: 'Mulish';
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.nav-footer a:hover {
+    opacity: 60%;
+    text-decoration: none;
 }
 
 .footer-bottom {
-	padding-bottom: 37px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 37px;
+}
+
+.logo-bottom {
+	display: flex;
 }
 
 .text-made-by {
@@ -743,6 +883,7 @@ button {
 	font-size: 12px;
 	line-height: 140%;
 	color: #000;
+	margin-right: 13px;
 }
 
 .text-made-by:hover {
@@ -750,7 +891,7 @@ button {
 }
 
 .logo-footer-img {
-	padding-bottom: 18px;
+	width: 109px;
 }
 
 .copyright {
@@ -767,7 +908,12 @@ button {
 	padding-bottom: 18px;
 }
 
-.footer-img {
+.logo-pay {
+	width: 114px;
+	vertical-align: inherit;
+}
+
+.footer-bottom-img {
 	background-image: url(../img/image-footer.jpg);
 	height: 56px;
 	background-repeat: repeat-x;
