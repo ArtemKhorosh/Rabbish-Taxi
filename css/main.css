@@ -201,7 +201,7 @@ button {
 /* Section locate                  */
 
 .section-locate {
-	margin-bottom: 280px;
+	margin-bottom: 200px;
 }
 
 .section-locate-content {
@@ -397,6 +397,7 @@ button {
 	border-radius: 50%;
 	text-align: center;
 	margin-bottom: 20px;
+	margin-right: 32px;
 }
 
 .why-us-section-logo svg {
@@ -483,10 +484,10 @@ button {
 }
 
 .section-pricing-content-img {
-	display: contents;
+	display: inline-flex;
 }
 
-.section-pricing-content-img::after {
+.section-pricing-element::after {
 	content: '';
 	width: 466px;
 	height: 469px;
@@ -497,7 +498,7 @@ button {
 	left: 700px;
 }
 
-.section-pricing-content-img::before {
+.section-pricing-element::before {
 	content: '';
 	width: 252px;
 	height: 255px;
@@ -516,7 +517,7 @@ button {
 /* Section how it work             */
 
 .section-how-it-work {
-	margin-bottom: 211px;
+	margin-bottom: 208px;
 }
 
 .section-how-it-work-content {
@@ -548,12 +549,22 @@ button {
 
 }
 
+.section-how-it-work-element-left {
+	margin-right: 50px;
+	max-width: 360px;
+}
+
+.section-how-it-work-card-item {
+	display: flex;
+
+}
+
 .number-of-chapter {
 	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 110%;
-	padding: 0 0 20px 34px;
+	margin-bottom: 20px;
 }
 
 .text-of-the-chapter-title {
@@ -561,13 +572,16 @@ button {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 130%;
-	padding: 0 20px 0 34px;
 }
 
 .text-of-the-chapter-subtitle {
 	font-size: 18px;
 	line-height: 140%;
-	padding: 38px 0 0 0;
+	padding-top: 38px;
+}
+
+.section-how-it-work-element-right {
+	max-width: 440px;
 }
 
 /* Section services                */
@@ -596,20 +610,26 @@ button {
 	line-height: 140%;
 }
 
-.section-services-img {
-	margin-bottom: 115px;
-	position: relative;
-	z-index: 20;
+.section-services-img-content {
+	width: 314px;
+	display: inline-flex;
 }
 
-.section-services-img-content::before {
+.section-services-img {
+	object-fit: cover;
+	width: 610px;
+	height: 339px;
+	z-index: 10;
+}
+
+.section-services-img-content::after {
 	content: '';
 	width: 168px;
 	height: 168px;
 	background-color: #FBCA27;
 	position: absolute;
 	border-radius: 50%;
-	bottom: 1400px;
+	bottom: 1300px;
 	left: 250px;
 }
 
@@ -639,7 +659,7 @@ button {
 }
 
 .section-review-content {
-	max-width: 76%;
+	max-width: 890px;
 }
 
 .section-review-title {
@@ -801,7 +821,7 @@ button {
 	margin-bottom: 55px;
 }
 
-.section-bottom-content-img::after {
+.section-bottom-element::after {
 	content: '';
 	width: 174px;
 	height: 175px;
@@ -809,10 +829,10 @@ button {
 	border: 2px dashed #FFE58D;
 	position: absolute;
 	top: 100px;
-	left: 960px;
+	left: 860px;
 }
 
-.section-bottom-content-img::before {
+.section-bottom-element::before {
 	content: '';
 	width: 98px;
 	height: 99px;
@@ -820,7 +840,7 @@ button {
 	background-color: #FFE58D;
 	position: absolute;
 	top: 138px;
-	left: 998px;
+	left: 898px;
 }
 
 .section-bottom-img {
