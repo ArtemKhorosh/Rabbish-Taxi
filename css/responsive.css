@@ -87,15 +87,17 @@
 	}
 
 	.menu-open .btn-menu span:nth-child(1) {
-		transform: rotate(45deg) translate(6px, 5px);
-	}
+		transform: rotate(45deg) translate(50%, 0%);
+		width: 22px;
+	}	
 
 	.menu-open .btn-menu span:nth-child(2) {
 		transform: scale(0);
 	}
 
 	.menu-open .btn-menu span:nth-child(3) {
-		transform: rotate(-45deg) translate(5px, -5px);
+		transform: rotate(-45deg) translate(50%, 0%);
+		width: 22px;
 	}
 
 	/* Section about */
@@ -448,7 +450,7 @@
 	}
 
 	.menu-open .main-menu::before {
-		top: 119vh;
+		top: 178vh;
 	}
 
 	.nav-phone {
