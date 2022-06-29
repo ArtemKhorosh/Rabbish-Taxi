@@ -745,9 +745,6 @@
 		padding-top: 0;
 	}
 
-	.section-review-slider {
-	}
-
 	.section-review-slider-text {
 		font-size: 18px;
 	}
@@ -778,8 +775,6 @@
 	.section-bottom-element::after {
 		display: none;
 	}
-
-	.section-bottom-content {}
 
 	.section-bottom-content::before {
 		display: none;
