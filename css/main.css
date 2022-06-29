@@ -329,14 +329,7 @@ button {
 	margin-bottom: 161px;
 }
 
-/* .section-about-ellipse-img {
-	position: absolute;
-	top: 130px;
-	left: 30px;
-} */
-
 .wrapper {
-	width: 585px;
 	height: 466px;
 }
 
@@ -435,7 +428,6 @@ button {
 	position: relative;
 	justify-content: space-between;
 	background-color: #FBCA27;
-	border: 1px solid #000000;
 	border-radius: 10px;
 	padding: 110px 100px 110px 100px;
 }
@@ -511,7 +503,7 @@ button {
 
 .section-pricing-img {
 	width: 287px;
-	z-index: 30;
+	z-index: 5;
 }
 
 /* Section how it work             */
@@ -597,7 +589,7 @@ button {
 	position: relative;
 }
 
-.section-services-title {
+.section-services-content h3 {
 	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 60px;
@@ -605,14 +597,19 @@ button {
 	margin-bottom: 60px;
 }
 
-.section-services-subtitle {
+.section-services-content p {
 	font-size: 17px;
 	line-height: 140%;
+}
+
+.section-services-content p:nth-child(2n+0) {
+	margin-bottom: 30px;
 }
 
 .section-services-img-content {
 	width: 314px;
 	display: inline-flex;
+	margin-bottom: 114px;
 }
 
 .section-services-img {
@@ -629,11 +626,11 @@ button {
 	background-color: #FBCA27;
 	position: absolute;
 	border-radius: 50%;
-	bottom: 1300px;
+	bottom: 1400px;
 	left: 250px;
 }
 
-.section-services-title-content {
+.section-services-content h4 {
 	font-family: 'Cooper';
 	font-weight: 700;
 	font-size: 24px;
@@ -641,11 +638,10 @@ button {
 	margin-bottom: 25px;
 }
 
-.section-services-subtitle-content {
-	font-size: 17px;
-	line-height: 140%;
-	padding-bottom: 60px;
+.section-services-content p:nth-child(2n+1) {
+	margin-bottom: 60px;
 }
+
 
 /* Section review text               */
 
@@ -883,6 +879,36 @@ button {
 .nav-footer a:hover {
     opacity: 60%;
     text-decoration: none;
+}
+
+.btn-nav-footer {
+	color: #000;
+	background-color: #FBCA27;
+}
+
+.btn-nav-footer:hover {
+	opacity: 100%;
+}
+
+.footer-phone .btn-nav-footer svg {
+	fill: #000;
+}
+
+.footer-phone .btn-nav-footer:hover svg {
+	fill: #FBCA27;
+}
+
+.footer-links a {
+	padding: 0;
+}
+
+.nav-footer-links svg {
+	width: 20px;
+	height: 20px;
+}
+
+.footer-links a:not(:last-child) {
+	margin: 0 10px 0 0;
 }
 
 .footer-bottom {
